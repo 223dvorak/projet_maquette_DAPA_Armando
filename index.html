@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piano Master</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="logo">
+            <img src="assets/icons/music-solid.svg" alt="Logo musical" />
+          </li>
+          <li>
+            <a href="#cours_test_gratuit">Cours test pour jouer en 7 jours</a>
+          </li>
+          <li><a href="#Qui_sommes_nous">Qui sommes-nous</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Vous voulez apprendre le piano ?</h1>
+        </div>
+        <img src="assets/images/piano.jpg" alt="Piano" class="main_piano" />
+      </section>
+
+      <section id="cours_test_gratuit">
+        <h2>Tester 7 jours gratuitement</h2>
+        <video
+          src="assets/videos/free-course.mp4"
+          controls
+          class="full-width-video"
+        ></video>
+      </section>
+
+      <section id="Qui_sommes_nous">
+        <h2>Qui sommes-nous ?</h2>
+        <p>
+          Qui sommes-nous ? Bienvenue sur notre plateforme musicale ! Nous
+          sommes une équipe de professeurs passionnés, tous diplômés de
+          l'Associated Board of the Royal Schools of Music (ABRSM). Notre
+          mission est de partager notre amour de la musique avec chaque élève,
+          en offrant un enseignement de haute qualité et adapté à chacun. Nos
+          enseignants possèdent une solide formation musicale et une expérience
+          variée. Leur passion pour la musique est au cœur de leur pédagogie, ce
+          qui rend chaque leçon non seulement instructive, mais aussi
+          inspirante. Qu'il s'agisse d'un enfant découvrant son premier
+          instrument ou d'un adulte souhaitant se perfectionner, chaque élève
+          bénéficie d'une attention personnalisée et d'un suivi régulier. Nous
+          proposons une large gamme de cours, incluant des leçons individuelles
+          et des ateliers de groupe, afin de créer un environnement
+          d'apprentissage dynamique et convivial. De plus, nos événements de
+          performances permettent aux élèves de briller sur scène et de
+          développer leur confiance. Rejoignez-nous pour explorer la magie de la
+          musique et réaliser vos rêves musicaux avec des enseignants dévoués
+          qui vous accompagneront à chaque étape de votre parcours !
+        </p>
+      </section>
+
+      <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form action="#" method="post">
+          <label for="name">Nom:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Envoyer</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <nav class="footer-links">
+        <a href="#">Nous contacter</a>
+        <a href="#">Cursus</a>
+        <a href="#">Diplôme de nos enseignants</a>
+      </nav>
+    </footer>
+  </body>
+</html>
